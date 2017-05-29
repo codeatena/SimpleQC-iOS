@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A9C1AA1EDCC17700241D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1A91EDCC17700241D66 /* main.m */; };
+		04A9C1AD1EDCC17700241D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1AC1EDCC17700241D66 /* AppDelegate.m */; };
+		04A9C1B01EDCC17700241D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1AF1EDCC17700241D66 /* ViewController.m */; };
+		04A9C1B31EDCC17800241D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9C1B11EDCC17800241D66 /* Main.storyboard */; };
+		04A9C1B61EDCC17800241D66 /* SimpleQC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1B41EDCC17800241D66 /* SimpleQC.xcdatamodeld */; };
+		04A9C1B81EDCC17800241D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9C1B71EDCC17800241D66 /* Assets.xcassets */; };
+		04A9C1BB1EDCC17800241D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9C1B91EDCC17800241D66 /* LaunchScreen.storyboard */; };
+		BE4E9638650F6CF412B7B522 /* Pods_SimpleQC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7D20002AFD935283CF7742 /* Pods_SimpleQC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A9C1A51EDCC17700241D66 /* SimpleQC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9C1A91EDCC17700241D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A9C1AB1EDCC17700241D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A9C1AC1EDCC17700241D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A9C1AE1EDCC17700241D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A9C1AF1EDCC17700241D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A9C1B21EDCC17800241D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A9C1B51EDCC17800241D66 /* SimpleQC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleQC.xcdatamodel; sourceTree = "<group>"; };
+		04A9C1B71EDCC17800241D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A9C1BA1EDCC17800241D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A9C1BC1EDCC17800241D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC17C6555F4EF304F2A5093A /* Pods-SimpleQC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleQC/Pods-SimpleQC.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7D20002AFD935283CF7742 /* Pods_SimpleQC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleQC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E979F22E29B0819B3AFA100D /* Pods-SimpleQC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleQC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleQC/Pods-SimpleQC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A9C1A21EDCC17700241D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4E9638650F6CF412B7B522 /* Pods_SimpleQC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034C73F12493A1205450A212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC7D20002AFD935283CF7742 /* Pods_SimpleQC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A9C19C1EDCC17700241D66 = {
+			isa = PBXGroup;
+			children = (
+				04A9C1A71EDCC17700241D66 /* SimpleQC */,
+				04A9C1A61EDCC17700241D66 /* Products */,
+				E650B2EA7A4F860F1B77BD53 /* Pods */,
+				034C73F12493A1205450A212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A9C1A61EDCC17700241D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A9C1A51EDCC17700241D66 /* SimpleQC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A9C1A71EDCC17700241D66 /* SimpleQC */ = {
+			isa = PBXGroup;
+			children = (
+				04A9C1AB1EDCC17700241D66 /* AppDelegate.h */,
+				04A9C1AC1EDCC17700241D66 /* AppDelegate.m */,
+				04A9C1AE1EDCC17700241D66 /* ViewController.h */,
+				04A9C1AF1EDCC17700241D66 /* ViewController.m */,
+				04A9C1B11EDCC17800241D66 /* Main.storyboard */,
+				04A9C1B71EDCC17800241D66 /* Assets.xcassets */,
+				04A9C1B91EDCC17800241D66 /* LaunchScreen.storyboard */,
+				04A9C1BC1EDCC17800241D66 /* Info.plist */,
+				04A9C1B41EDCC17800241D66 /* SimpleQC.xcdatamodeld */,
+				04A9C1A81EDCC17700241D66 /* Supporting Files */,
+			);
+			path = SimpleQC;
+			sourceTree = "<group>";
+		};
+		04A9C1A81EDCC17700241D66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A9C1A91EDCC17700241D66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E650B2EA7A4F860F1B77BD53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC17C6555F4EF304F2A5093A /* Pods-SimpleQC.debug.xcconfig */,
+				E979F22E29B0819B3AFA100D /* Pods-SimpleQC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A9C1A41EDCC17700241D66 /* SimpleQC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A9C1BF1EDCC17800241D66 /* Build configuration list for PBXNativeTarget "SimpleQC" */;
+			buildPhases = (
+				5A693FE506865B8B4332D445 /* [CP] Check Pods Manifest.lock */,
+				04A9C1A11EDCC17700241D66 /* Sources */,
+				04A9C1A21EDCC17700241D66 /* Frameworks */,
+				04A9C1A31EDCC17700241D66 /* Resources */,
+				EC2B9806875266955E6B4219 /* [CP] Embed Pods Frameworks */,
+				627D7F76FCF1CC2B104F4292 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleQC;
+			productName = SimpleQC;
+			productReference = 04A9C1A51EDCC17700241D66 /* SimpleQC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A9C19D1EDCC17700241D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AnCheng;
+				TargetAttributes = {
+					04A9C1A41EDCC17700241D66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04A9C1A01EDCC17700241D66 /* Build configuration list for PBXProject "SimpleQC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A9C19C1EDCC17700241D66;
+			productRefGroup = 04A9C1A61EDCC17700241D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A9C1A41EDCC17700241D66 /* SimpleQC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A9C1A31EDCC17700241D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9C1BB1EDCC17800241D66 /* LaunchScreen.storyboard in Resources */,
+				04A9C1B81EDCC17800241D66 /* Assets.xcassets in Resources */,
+				04A9C1B31EDCC17800241D66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A693FE506865B8B4332D445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		627D7F76FCF1CC2B104F4292 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleQC/Pods-SimpleQC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC2B9806875266955E6B4219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleQC/Pods-SimpleQC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A9C1A11EDCC17700241D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9C1B01EDCC17700241D66 /* ViewController.m in Sources */,
+				04A9C1AD1EDCC17700241D66 /* AppDelegate.m in Sources */,
+				04A9C1AA1EDCC17700241D66 /* main.m in Sources */,
+				04A9C1B61EDCC17800241D66 /* SimpleQC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A9C1B11EDCC17800241D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9C1B21EDCC17800241D66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A9C1B91EDCC17800241D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9C1BA1EDCC17800241D66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A9C1BD1EDCC17800241D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A9C1BE1EDCC17800241D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A9C1C01EDCC17800241D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC17C6555F4EF304F2A5093A /* Pods-SimpleQC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleQC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A9C1C11EDCC17800241D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E979F22E29B0819B3AFA100D /* Pods-SimpleQC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleQC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A9C1A01EDCC17700241D66 /* Build configuration list for PBXProject "SimpleQC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9C1BD1EDCC17800241D66 /* Debug */,
+				04A9C1BE1EDCC17800241D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A9C1BF1EDCC17800241D66 /* Build configuration list for PBXNativeTarget "SimpleQC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9C1C01EDCC17800241D66 /* Debug */,
+				04A9C1C11EDCC17800241D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04A9C1B41EDCC17800241D66 /* SimpleQC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04A9C1B51EDCC17800241D66 /* SimpleQC.xcdatamodel */,
+			);
+			currentVersion = 04A9C1B51EDCC17800241D66 /* SimpleQC.xcdatamodel */;
+			path = SimpleQC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04A9C19D1EDCC17700241D66 /* Project object */;
+}
