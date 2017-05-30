@@ -1,0 +1,28 @@
+//
+//  SimpleQC.pch
+//  SimpleQC
+//
+//  Created by AnCheng on 30/05/2017.
+//  Copyright © 2017 AnCheng. All rights reserved.
+//
+
+#ifndef SimpleQC_pch
+#define SimpleQC_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+@import AFNetworking;
+@import MBProgressHUD;
+
+#import "APRoundedButton.h"
+#import "APIService.h"
+#import "Constants.h"
+
+#endif
+
+#endif /* SimpleQC_pch */

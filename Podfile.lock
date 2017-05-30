@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - DownPicker (0.1.34)
+  - IQKeyboardManager (4.0.9)
+  - JVFloatLabeledTextField (1.1.1)
   - MBProgressHUD (1.0.0)
   - ZXingObjC (3.2.1):
     - ZXingObjC/All (= 3.2.1)
@@ -21,14 +24,20 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - DownPicker
+  - IQKeyboardManager
+  - JVFloatLabeledTextField
   - MBProgressHUD
   - ZXingObjC (~> 3.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: e015c2ca62e21d273d4607a7511f537e17e5c46c
+PODFILE CHECKSUM: cf357e0abb2b2dccb88c543d8921b8fe1b53df6d
 
 COCOAPODS: 1.2.1

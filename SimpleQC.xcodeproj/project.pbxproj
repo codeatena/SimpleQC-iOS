@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04639D0A1EDD365800F3A98F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D091EDD365800F3A98F /* LoginViewController.m */; };
+		04639D0E1EDD383B00F3A98F /* APRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D0D1EDD383B00F3A98F /* APRoundedButton.m */; };
+		04639D131EDD38E100F3A98F /* APIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D121EDD38E100F3A98F /* APIService.m */; };
+		04639D161EDD40E500F3A98F /* ScansearchselectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D151EDD40E500F3A98F /* ScansearchselectViewController.m */; };
+		04639D1A1EDD46BF00F3A98F /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D191EDD46BF00F3A98F /* QRCodeViewController.m */; };
+		04639D1F1EDD518800F3A98F /* ReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04639D1E1EDD518800F3A98F /* ReceiverViewController.m */; };
 		04A9C1AA1EDCC17700241D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1A91EDCC17700241D66 /* main.m */; };
 		04A9C1AD1EDCC17700241D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1AC1EDCC17700241D66 /* AppDelegate.m */; };
-		04A9C1B01EDCC17700241D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1AF1EDCC17700241D66 /* ViewController.m */; };
 		04A9C1B31EDCC17800241D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9C1B11EDCC17800241D66 /* Main.storyboard */; };
 		04A9C1B61EDCC17800241D66 /* SimpleQC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A9C1B41EDCC17800241D66 /* SimpleQC.xcdatamodeld */; };
 		04A9C1B81EDCC17800241D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9C1B71EDCC17800241D66 /* Assets.xcassets */; };
@@ -18,12 +23,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04639D081EDD365800F3A98F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = viewcontroller/LoginViewController.h; sourceTree = "<group>"; };
+		04639D091EDD365800F3A98F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = viewcontroller/LoginViewController.m; sourceTree = "<group>"; };
+		04639D0C1EDD383B00F3A98F /* APRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRoundedButton.h; sourceTree = "<group>"; };
+		04639D0D1EDD383B00F3A98F /* APRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoundedButton.m; sourceTree = "<group>"; };
+		04639D0F1EDD385A00F3A98F /* SimpleQC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleQC.pch; sourceTree = "<group>"; };
+		04639D111EDD38E100F3A98F /* APIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIService.h; path = control/APIService/APIService.h; sourceTree = "<group>"; };
+		04639D121EDD38E100F3A98F /* APIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIService.m; path = control/APIService/APIService.m; sourceTree = "<group>"; };
+		04639D141EDD40E500F3A98F /* ScansearchselectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScansearchselectViewController.h; path = viewcontroller/ScansearchselectViewController.h; sourceTree = "<group>"; };
+		04639D151EDD40E500F3A98F /* ScansearchselectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScansearchselectViewController.m; path = viewcontroller/ScansearchselectViewController.m; sourceTree = "<group>"; };
+		04639D181EDD46BF00F3A98F /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRCodeViewController.h; path = viewcontroller/QRCodeViewController.h; sourceTree = "<group>"; };
+		04639D191EDD46BF00F3A98F /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRCodeViewController.m; path = viewcontroller/QRCodeViewController.m; sourceTree = "<group>"; };
+		04639D1D1EDD518800F3A98F /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiverViewController.h; path = viewcontroller/ReceiverViewController.h; sourceTree = "<group>"; };
+		04639D1E1EDD518800F3A98F /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiverViewController.m; path = viewcontroller/ReceiverViewController.m; sourceTree = "<group>"; };
+		04639D201EDD5B5B00F3A98F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
 		04A9C1A51EDCC17700241D66 /* SimpleQC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9C1A91EDCC17700241D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A9C1AB1EDCC17700241D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A9C1AC1EDCC17700241D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A9C1AE1EDCC17700241D66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A9C1AF1EDCC17700241D66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A9C1B21EDCC17800241D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A9C1B51EDCC17800241D66 /* SimpleQC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleQC.xcdatamodel; sourceTree = "<group>"; };
 		04A9C1B71EDCC17800241D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +71,71 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		04639D031EDD361800F3A98F /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				04639D081EDD365800F3A98F /* LoginViewController.h */,
+				04639D091EDD365800F3A98F /* LoginViewController.m */,
+				04639D141EDD40E500F3A98F /* ScansearchselectViewController.h */,
+				04639D151EDD40E500F3A98F /* ScansearchselectViewController.m */,
+				04639D181EDD46BF00F3A98F /* QRCodeViewController.h */,
+				04639D191EDD46BF00F3A98F /* QRCodeViewController.m */,
+				04639D1D1EDD518800F3A98F /* ReceiverViewController.h */,
+				04639D1E1EDD518800F3A98F /* ReceiverViewController.m */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		04639D041EDD361F00F3A98F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04639D201EDD5B5B00F3A98F /* Constants.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		04639D051EDD362300F3A98F /* control */ = {
+			isa = PBXGroup;
+			children = (
+				04639D101EDD38D100F3A98F /* APIService */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		04639D061EDD362700F3A98F /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				04639D0B1EDD383B00F3A98F /* APRoundedButton */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		04639D071EDD362C00F3A98F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		04639D0B1EDD383B00F3A98F /* APRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				04639D0C1EDD383B00F3A98F /* APRoundedButton.h */,
+				04639D0D1EDD383B00F3A98F /* APRoundedButton.m */,
+			);
+			name = APRoundedButton;
+			path = utility/APRoundedButton;
+			sourceTree = "<group>";
+		};
+		04639D101EDD38D100F3A98F /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				04639D111EDD38E100F3A98F /* APIService.h */,
+				04639D121EDD38E100F3A98F /* APIService.m */,
+			);
+			name = APIService;
+			sourceTree = "<group>";
+		};
 		04A9C19C1EDCC17700241D66 = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +157,13 @@
 		04A9C1A71EDCC17700241D66 /* SimpleQC */ = {
 			isa = PBXGroup;
 			children = (
+				04639D071EDD362C00F3A98F /* view */,
+				04639D061EDD362700F3A98F /* utility */,
+				04639D051EDD362300F3A98F /* control */,
+				04639D041EDD361F00F3A98F /* model */,
+				04639D031EDD361800F3A98F /* viewcontroller */,
 				04A9C1AB1EDCC17700241D66 /* AppDelegate.h */,
 				04A9C1AC1EDCC17700241D66 /* AppDelegate.m */,
-				04A9C1AE1EDCC17700241D66 /* ViewController.h */,
-				04A9C1AF1EDCC17700241D66 /* ViewController.m */,
 				04A9C1B11EDCC17800241D66 /* Main.storyboard */,
 				04A9C1B71EDCC17800241D66 /* Assets.xcassets */,
 				04A9C1B91EDCC17800241D66 /* LaunchScreen.storyboard */,
@@ -93,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				04A9C1A91EDCC17700241D66 /* main.m */,
+				04639D0F1EDD385A00F3A98F /* SimpleQC.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +226,7 @@
 				TargetAttributes = {
 					04A9C1A41EDCC17700241D66 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = VPD5QTB66L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -228,10 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A9C1B01EDCC17700241D66 /* ViewController.m in Sources */,
+				04639D131EDD38E100F3A98F /* APIService.m in Sources */,
+				04639D0A1EDD365800F3A98F /* LoginViewController.m in Sources */,
 				04A9C1AD1EDCC17700241D66 /* AppDelegate.m in Sources */,
+				04639D1F1EDD518800F3A98F /* ReceiverViewController.m in Sources */,
 				04A9C1AA1EDCC17700241D66 /* main.m in Sources */,
 				04A9C1B61EDCC17800241D66 /* SimpleQC.xcdatamodeld in Sources */,
+				04639D161EDD40E500F3A98F /* ScansearchselectViewController.m in Sources */,
+				04639D1A1EDD46BF00F3A98F /* QRCodeViewController.m in Sources */,
+				04639D0E1EDD383B00F3A98F /* APRoundedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +444,8 @@
 			baseConfigurationReference = BC17C6555F4EF304F2A5093A /* Pods-SimpleQC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VPD5QTB66L;
+				GCC_PREFIX_HEADER = SimpleQC/SimpleQC.pch;
 				INFOPLIST_FILE = SimpleQC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
@@ -364,6 +458,8 @@
 			baseConfigurationReference = E979F22E29B0819B3AFA100D /* Pods-SimpleQC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VPD5QTB66L;
+				GCC_PREFIX_HEADER = SimpleQC/SimpleQC.pch;
 				INFOPLIST_FILE = SimpleQC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
@@ -390,6 +486,7 @@
 				04A9C1C11EDCC17800241D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ScansearchselectViewController.h
 //  SimpleQC
 //
 //  Created by AnCheng on 30/05/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ScansearchselectViewController : UIViewController
 
 @end
-

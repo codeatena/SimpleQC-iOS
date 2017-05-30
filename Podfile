@@ -10,7 +10,9 @@ def testing_pods
     pod 'AFNetworking', '~> 3.0'
     pod 'MBProgressHUD'
     pod 'ZXingObjC', '~> 3.0'
-
+    pod 'JVFloatLabeledTextField'
+    pod 'DownPicker'
+    pod 'IQKeyboardManager'
 end
 
 target "SimpleQC" do
