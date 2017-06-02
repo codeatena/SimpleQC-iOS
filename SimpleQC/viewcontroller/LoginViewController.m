@@ -24,6 +24,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    NSString *userId = [[NSUserDefaults standardUserDefaults] objectForKey:KEY_USERID];
+    if (userId != nil)
+        _idField.text = userId;
+    
+    NSString *password = [[NSUserDefaults standardUserDefaults] objectForKey:KEY_PASSWORD];
+    if (password != nil)
+        _passwordField.text = password;
+}
+
 /*
 #pragma mark - Navigation
 
@@ -47,6 +60,9 @@
         {
             if ([result[@"state"] isEqualToString:@"success"])
             {
+                [[NSUserDefaults standardUserDefaults] setValue:_idField.text forKey:KEY_USERID];
+                [[NSUserDefaults standardUserDefaults] setValue:_passwordField.text forKey:KEY_PASSWORD];
+
                 [self performSegueWithIdentifier:@"scanSegue" sender:nil];
             }
             else

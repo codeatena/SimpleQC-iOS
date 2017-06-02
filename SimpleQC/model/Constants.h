@@ -17,4 +17,7 @@
 
 #define PROJECT_STATUS  @[@"New" , @"China in Progress", @"China Ready for Shipment", @"Chia-Shipped", @"US-Order Received", @"US-In Progress", @"Completed"]
 
+#define KEY_USERID      @"userid"
+#define KEY_PASSWORD      @"password"
+
 #endif /* Constants_h */
