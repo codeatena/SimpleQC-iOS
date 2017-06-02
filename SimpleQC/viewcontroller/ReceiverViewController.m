@@ -48,25 +48,32 @@
     {
         [[APIService sharedManager] getProjectByPO:_codeStr complete:^(NSArray *result,NSError *error){
             
-            [self parseDic:result[0]];
-            
             [MBProgressHUD hideHUDForView:self.view animated:NO];
+            if (error)
+                NSLog(@"%@" ,error.localizedDescription);
+            else
+                [self parseDic:result];
         }];
     }
     else
     {
         [[APIService sharedManager] getProjectByJob:_codeStr complete:^(NSArray *result,NSError *error){
             
-            [self parseDic:result[0]];
-
             [MBProgressHUD hideHUDForView:self.view animated:NO];
+            if (error)
+                NSLog(@"%@" ,error.localizedDescription);
+            else
+                [self parseDic:result];
 
         }];
     }
 }
 
-- (void)parseDic:(NSDictionary *)dic
+- (void)parseDic:(NSArray *)result
 {
+    if (result == nil || result.count == 0) return;
+    
+    NSDictionary *dic = result[0];
     _nameLbl.text = dic[@"name"];
     _poLbl.text = dic[@"po_number"];
     _jobLbl.text = dic[@"job_number"];

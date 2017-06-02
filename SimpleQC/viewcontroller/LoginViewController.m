@@ -40,15 +40,25 @@
 
     [[APIService sharedManager] authoLogin:_idField.text password:_passwordField.text complete:^(NSDictionary *result,NSError *error){
         
+        
         [MBProgressHUD hideHUDForView:self.view animated:NO];
 
-        if ([result[@"state"] isEqualToString:@"success"])
+        if (error == nil)
         {
-            [self performSegueWithIdentifier:@"scanSegue" sender:nil];
+            if ([result[@"state"] isEqualToString:@"success"])
+            {
+                [self performSegueWithIdentifier:@"scanSegue" sender:nil];
+            }
+            else
+            {
+                UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"Error" message:result[@"result"] preferredStyle:UIAlertControllerStyleAlert];
+                [alertVC addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+                [self presentViewController:alertVC animated:YES completion:nil];
+            }
         }
         else
         {
-            UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"Error" message:result[@"result"] preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"Error" message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
             [alertVC addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
             [self presentViewController:alertVC animated:YES completion:nil];
         }
