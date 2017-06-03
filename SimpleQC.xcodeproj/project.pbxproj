@@ -37,7 +37,7 @@
 		04639D1D1EDD518800F3A98F /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiverViewController.h; path = viewcontroller/ReceiverViewController.h; sourceTree = "<group>"; };
 		04639D1E1EDD518800F3A98F /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiverViewController.m; path = viewcontroller/ReceiverViewController.m; sourceTree = "<group>"; };
 		04639D201EDD5B5B00F3A98F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = model/Constants.h; sourceTree = "<group>"; };
-		04A9C1A51EDCC17700241D66 /* SimpleQC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9C1A51EDCC17700241D66 /* SimplyQC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyQC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9C1A91EDCC17700241D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A9C1AB1EDCC17700241D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A9C1AC1EDCC17700241D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		04A9C1A61EDCC17700241D66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04A9C1A51EDCC17700241D66 /* SimpleQC.app */,
+				04A9C1A51EDCC17700241D66 /* SimplyQC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			);
 			name = SimpleQC;
 			productName = SimpleQC;
-			productReference = 04A9C1A51EDCC17700241D66 /* SimpleQC.app */;
+			productReference = 04A9C1A51EDCC17700241D66 /* SimplyQC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -449,7 +449,7 @@
 				INFOPLIST_FILE = SimpleQC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimplyQC;
 			};
 			name = Debug;
 		};
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = SimpleQC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.SimpleQC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimplyQC;
 			};
 			name = Release;
 		};
